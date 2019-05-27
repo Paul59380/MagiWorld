@@ -1,5 +1,6 @@
 package com.genly;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -12,7 +13,6 @@ public class Order {
      * Display the choice for the characters
      */
     public void displayAvailableChoice() {
-        System.out.println("Création du personnage 1 :");
         System.out.println("Veuillez choisir la classe de votre personnage : ");
         System.out.println("1 - Guerrier");
         System.out.println("2 - Rôdeur");
@@ -23,37 +23,30 @@ public class Order {
      * Allows instantiate one class and create a characters
      * @param nbClassCharacters
      */
-    public void displaySelectedChoice(int nbClassCharacters) {
+    public ArrayList<String> displaySelectedChoice(int nbClassCharacters) {
             switch (nbClassCharacters) {
                 case 1:
                     System.out.println("Vous avez choisi la classe Guerrier !");
-                    int[] warriorAttr = makeACharaters();
-                    Warrior warrior = new Warrior(warriorAttr[0], warriorAttr[1], warriorAttr[2], warriorAttr[3],
-                            warriorAttr[4],
-                            "Warrior");
-                    warrior.description();
-                    break;
+                    ArrayList<String> warriorAttr = new ArrayList<String>(makeACharaters());
+                    warriorAttr.add("Guerrier");
+                    return warriorAttr;
                 case 2:
                     System.out.println("Vous avez choisi la classe Rôdeur !");
-                    int[] walkerAttr = makeACharaters();
-                    Walker walker = new Walker(walkerAttr[0], walkerAttr[1], walkerAttr[2], walkerAttr[3], walkerAttr[4],
-                            "Rôdeur");
-                    walker.description();
-                    break;
+                    ArrayList<String> walkerAttr = new ArrayList<String>(makeACharaters());
+                    walkerAttr.add("Rôdeur");
+                    return walkerAttr;
                 case 3:
                     System.out.println("Vous avez choisi la classe Mage !");
-                    int[] magusAttr = makeACharaters();
-                    Magus magus = new Magus(magusAttr[0], magusAttr[1], magusAttr[2], magusAttr[3], magusAttr[4],
-                            "Mage");
-                    magus.description();
-                    break;
+                    ArrayList<String> magusAttr = new ArrayList<String>(makeACharaters());
+                    magusAttr.add("Mage");
+                    return magusAttr;
                 default:
                     System.out.println("Vous n'avez pas choisi parmis les choix proposé !");
-                    break;
+                    return new ArrayList<String>();
             }
     }
 
-    public int[] makeACharaters() {
+    public ArrayList<String> makeACharaters() {
         System.out.println("Niveau du personnage ?");
         int level = this.seizeTheAttributes();
         System.out.println("Force du personnage ?");
@@ -64,18 +57,24 @@ public class Order {
         int agility = this.seizeTheAttributes();
         System.out.println("Intelligence du personnage ?");
         int intelligence = this.seizeTheAttributes();
-        int valuesAttr[] = {level, strength, life, agility, intelligence};
-        return valuesAttr;
+        ArrayList<String> valueAttr = new ArrayList<String>();
+        valueAttr.add(String.valueOf(level));
+        valueAttr.add(String.valueOf(strength));
+        valueAttr.add(String.valueOf(life));
+        valueAttr.add(String.valueOf(agility));
+        valueAttr.add(String.valueOf(intelligence));
+        return valueAttr;
     }
 
     /**
      * Display the menu for create a characters
      * She call displayAvailableChoice and displaySelectedChoice method
      */
-    public void runChoiceCharacter() {
-            this.displayAvailableChoice();
-            int nb = sc.nextInt();
-            this.displaySelectedChoice(nb);
+    public ArrayList<String> runChoiceCharacter() {
+        this.displayAvailableChoice();
+        int nb = sc.nextInt();
+        ArrayList<String> charactersAttr = new ArrayList<String>(this.displaySelectedChoice(nb));
+        return charactersAttr;
     }
 
     /**
