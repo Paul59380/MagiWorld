@@ -17,33 +17,48 @@ public class Order {
         switch (nbClassCharacters) {
             case 1 :
                 System.out.println("Vous avez choisi la classe Guerrier !");
-                int level = this.seizeTheLevel();
-                int strength = this.seizeTheStrength();
-                int life = this.seizeTheLife();
-                int agility = this.seizeTheAgility();
-                int intelligence = this.seizeTheIntelligence();
+                System.out.println("Niveau du personnage ?");
+                int level = this.seizeTheAttributes();
+                System.out.println("Force du personnage ?");
+                int strength = this.seizeTheAttributes();
+                System.out.println("Santé du personnage ?");
+                int life = this.seizeTheAttributes();
+                System.out.println("Agilité du personnage ?");
+                int agility = this.seizeTheAttributes();
+                System.out.println("Intelligence du personnage ?");
+                int intelligence = this.seizeTheAttributes();
                 String type = "Guerrier";
                 Warrior warrior = new Warrior(level, life, strength, agility, intelligence, type);
                 warrior.description();
                 break;
             case 2 :
                 System.out.println("Vous avez choisi la classe Rôdeur !");
-                level = this.seizeTheLevel();
-                strength = this.seizeTheStrength();
-                life = this.seizeTheLife();
-                agility = this.seizeTheAgility();
-                intelligence = this.seizeTheIntelligence();
+                System.out.println("Niveau du personnage ?");
+                level = this.seizeTheAttributes();
+                System.out.println("Force du personnage ?");
+                strength = this.seizeTheAttributes();
+                System.out.println("Santé du personnage ?");
+                life = this.seizeTheAttributes();
+                System.out.println("Agilité du personnage ?");
+                agility = this.seizeTheAttributes();
+                System.out.println("Intelligence du personnage ?");
+                intelligence = this.seizeTheAttributes();
                 type = "Rôdeur";
                 Walker walker = new Walker(level, life, strength, agility, intelligence, type);
                 walker.description();
                 break;
             case 3 :
                 System.out.println("Vous avez choisi la classe Mage !");
-                level = this.seizeTheLevel();
-                strength = this.seizeTheStrength();
-                life = this.seizeTheLife();
-                agility = this.seizeTheAgility();
-                intelligence = this.seizeTheIntelligence();
+                System.out.println("Niveau du personnage ?");
+                level = this.seizeTheAttributes();
+                System.out.println("Force du personnage ?");
+                strength = this.seizeTheAttributes();
+                System.out.println("Santé du personnage ?");
+                life = this.seizeTheAttributes();
+                System.out.println("Agilité du personnage ?");
+                agility = this.seizeTheAttributes();
+                System.out.println("Intelligence du personnage ?");
+                intelligence = this.seizeTheAttributes();
                 type = "Mage";
                 Magus magus = new Magus(level, life, strength, agility, intelligence, type);
                 magus.description();
@@ -60,58 +75,13 @@ public class Order {
         this.displaySelectedChoice(nb);
     }
 
-    public int seizeTheLevel() {
-        System.out.println("Niveau du personnage ?");
+    public int seizeTheAttributes() {
         int nb = sc.nextInt();
-        return defineThisLevel(nb);
+        return defineTheAttributes(nb);
     }
 
-    private int defineThisLevel(int nb) {
+    private int defineTheAttributes(int nb) {
         System.out.println("Son niveau est de " + nb);
-        return nb;
-    }
-
-    public int seizeTheStrength() {
-        System.out.println("Force du personnage ?");
-        int nb = sc.nextInt();
-        return defineThisStrength(nb);
-    }
-
-    private int defineThisStrength(int nb) {
-        System.out.println("Sa force est de : " + nb);
-        return nb;
-    }
-
-    public int seizeTheLife() {
-        System.out.println("Santé du personnage ?");
-        int nb = sc.nextInt();
-        return defineThisLife(nb);
-    }
-
-    private int defineThisLife(int nb) {
-        System.out.println("Sa santé est de : " + nb);
-        return nb;
-    }
-
-    public int seizeTheAgility() {
-        System.out.println("Agilité du personnage ?");
-        int nb = sc.nextInt();
-        return defineThisAgility(nb);
-    }
-
-    private int defineThisAgility(int nb) {
-        System.out.println("Son agilité est de : " + nb);
-        return nb;
-    }
-
-    public int seizeTheIntelligence() {
-        System.out.println("Intelligence du personnage ?");
-        int nb = sc.nextInt();
-        return defineThisIntelligence(nb);
-    }
-
-    private int defineThisIntelligence(int nb) {
-        System.out.println("Son intelligence est de : " + nb);
         return nb;
     }
 }
