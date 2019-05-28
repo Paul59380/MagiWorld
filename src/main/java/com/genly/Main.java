@@ -27,7 +27,6 @@ public class Main {
                         Integer.parseInt(characters.get(3)),
                         Integer.parseInt(characters.get(4)),
                         characters.get(5));
-                warrior.description();
                 main.addNewPlayer(warrior);
             } else if ("Rôdeur".equals(characters.get(5))) {
                 Characters walker = new Walker(Integer.parseInt(characters.get(0)),
@@ -36,7 +35,6 @@ public class Main {
                         Integer.parseInt(characters.get(3)),
                         Integer.parseInt(characters.get(4)),
                         characters.get(5));
-                walker.description();
                 main.addNewPlayer(walker);
             } else {
                 Characters magus = new Magus(Integer.parseInt(characters.get(0)),
@@ -45,12 +43,14 @@ public class Main {
                         Integer.parseInt(characters.get(3)),
                         Integer.parseInt(characters.get(4)),
                         characters.get(5));
-                magus.description();
                 main.addNewPlayer(magus);
             }
         }
-        System.out.println(main.playerOne.getType());
-        System.out.println(main.playerTwo.getType());
+        Characters PlayerOne = main.playerOne;
+        Characters PlayerTwo = main.playerTwo;
+
+        PlayerOne.description();
+        PlayerTwo.description();
     }
 
     public void addNewPlayer(Characters characters) {

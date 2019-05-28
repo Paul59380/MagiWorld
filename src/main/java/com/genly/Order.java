@@ -90,7 +90,6 @@ public class Order {
      * @return
      */
     private int defineTheAttributes(int nb) {
-        System.out.println("Son niveau est de " + nb);
         return nb;
     }
 }
