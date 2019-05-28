@@ -1,10 +1,13 @@
 package com.genly;
 
 import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Main {
     private Characters playerOne;
     private Characters playerTwo;
+    private Scanner sc = new Scanner(System.in);
 
     public void setPlayerOne(Characters playerOne) {
         this.playerOne = playerOne;
@@ -51,6 +54,27 @@ public class Main {
 
         PlayerOne.description();
         PlayerTwo.description();
+
+        main.startFight(PlayerOne, PlayerTwo);
+        do {
+            System.out.println(PlayerOne.getType() + " à vous de jouer !");
+            System.out.println(" 1 - attaque basique");
+            System.out.println(" 2 - attaque spécial");
+
+            main.attack(PlayerOne, PlayerTwo);
+
+            System.out.println(PlayerTwo.getType() + " à vous de jouer !");
+            System.out.println(" 1 - attaque basique");
+            System.out.println(" 2 - attaque spécial");
+            main.attack(PlayerTwo, PlayerOne);
+        } while (PlayerOne.getLife() > 0 && PlayerTwo.getLife() > 0);
+        if(PlayerOne.getLife() <= 0) {
+            System.out.println(PlayerOne.getType() + " est mort !");
+            System.out.println("Bravo " + PlayerTwo.getType() + " ! Vous avez gagné !");
+        } else {
+            System.out.println(PlayerTwo.getType() + " est mort !");
+            System.out.println("Bravo " + PlayerOne.getType() + " ! Vous avez gagné !");
+        }
     }
 
     public void addNewPlayer(Characters characters) {
@@ -58,5 +82,24 @@ public class Main {
             setPlayerOne(characters);
         else
             setPlayerTwo(characters);
+    }
+
+    public void startFight(Characters playerOne, Characters playerTwo) {
+        if(playerOne.getLife() > 0 && playerTwo.getLife() > 0) {
+            System.out.println("Que le combat commence !");
+        } else
+            System.out.println("Erreur dans le jeu !");
+    }
+
+    public void attack(Characters playerOne, Characters playerTwo) {
+        int nb = sc.nextInt();
+        if (nb == 1 ) {
+            playerOne.basicAttack(playerTwo);
+        } else if ( nb == 2 ) {
+            if (playerOne.getType() == "Guerrier") {
+                playerOne.specialAttack(playerTwo);
+            } else
+                playerOne.specialAttack(playerOne);
+        }
     }
 }

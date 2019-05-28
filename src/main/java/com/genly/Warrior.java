@@ -7,19 +7,20 @@ public class Warrior extends Characters {
     }
 
     public int basicAttack(Characters characters) {
-        System.out.println( this.getType() + " : inflige " + this.getStrength() + " à " + characters.getType());
+        System.out.println( this.getType() + " : inflige " + this.getStrength() + " points de dégâts à " + characters.getType());
         int newLife = characters.getLife() - this.getStrength();
         characters.setLife(newLife);
         return characters.getLife();
     }
 
     public int specialAttack(Characters characters) {
-        System.out.println("Je suis un "+ this.getType() + " et j'inflige " + this.getStrength() * 2 + " à " + characters.getType());
         int newLife = characters.getLife() - ( this.getStrength() * 2 );
         int decreaseStrength = this.getStrength() / 2;
         this.setStrength(decreaseStrength);
         System.out.println("Ma force est maintenant de " + this.getStrength() + " pts.");
         characters.setLife(newLife);
+        System.out.println("Le Guerrier inflige " + this.getStrength() * 2 +
+                " de dégâts à " + characters.getType() + " et perds " + decreaseStrength + " points de force");
         return characters.getLife();
     }
 

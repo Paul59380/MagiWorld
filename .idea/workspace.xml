@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c5fbe42-dce6-4fca-aca6-61933df149b4" name="Default Changelist" comment="Add two attributes in Main for create the player one and player two. Create the method addNewsPlayer for add a new object if is null">
+    <list default="true" id="7c5fbe42-dce6-4fca-aca6-61933df149b4" name="Default Changelist" comment="Change position for the description characters and remove one line in defineTheAttributes method in Order class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/genly/WalkerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/genly/Magus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genly/Magus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/genly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genly/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/genly/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genly/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/genly/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genly/Walker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/genly/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genly/Warrior.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +26,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2403">
-              <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+            <state relative-caret-position="-324">
+              <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2989#2997#0" expanded="true" />
                 <element signature="e#3426#3427#0" expanded="true" />
                 <element signature="e#3451#3452#0" expanded="true" />
               </folding>
@@ -34,17 +37,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Walker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            <state relative-caret-position="440">
+              <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
               <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Magus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Warrior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -52,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Characters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="81">
+              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding>
                 <element signature="e#559#560#0" expanded="true" />
                 <element signature="e#587#588#0" expanded="true" />
@@ -70,8 +97,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -84,16 +111,17 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/genly/AttackOtherCharacters.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/genly/CharactersAttack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/genly/Characters.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/genly/WarriorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/genly/CharachterAttack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/genly/Warrior.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/genly/MagusTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/genly/Magus.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/genly/OrderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/genly/Walker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/genly/WalkerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/genly/Magus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/genly/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/genly/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/genly/Characters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/genly/Walker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/genly/Main.java" />
       </list>
     </option>
@@ -163,6 +191,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="genly" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +288,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_Warrior_When_displayCharactersSelected_Then_DisplayWarriorSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WalkerTest.Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MagiWorld" />
       <extension name="coverage">
         <pattern>
@@ -261,14 +297,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.genly" />
-      <option name="MAIN_CLASS_NAME" value="com.genly.OrderTest" />
-      <option name="METHOD_NAME" value="Given_Warrior_When_displayCharactersSelected_Then_DisplayWarriorSentence" />
+      <option name="MAIN_CLASS_NAME" value="com.genly.WalkerTest" />
+      <option name="METHOD_NAME" value="Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.displaySelectedChoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WalkerTest.Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MagiWorld" />
       <extension name="coverage">
         <pattern>
@@ -277,8 +313,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.genly" />
-      <option name="MAIN_CLASS_NAME" value="com.genly.OrderTest" />
-      <option name="METHOD_NAME" value="displaySelectedChoice" />
+      <option name="MAIN_CLASS_NAME" value="com.genly.WalkerTest" />
+      <option name="METHOD_NAME" value="Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,10 +323,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WalkerTest.Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel" />
+        <item itemvalue="JUnit.WalkerTest.Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" />
         <item itemvalue="JUnit.OrderTest.Given_LevelCharacters_When_displayStrengthLevelCharactersSelected_Then_thisLevel" />
         <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="JUnit.OrderTest.Given_Warrior_When_displayCharactersSelected_Then_DisplayWarriorSentence" />
-        <item itemvalue="JUnit.OrderTest.displaySelectedChoice" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +342,7 @@
       <updated>1558689508669</updated>
       <workItem from="1558689510052" duration="7876000" />
       <workItem from="1558939585278" duration="7846000" />
-      <workItem from="1559025741475" duration="4201000" />
+      <workItem from="1559025741475" duration="13113000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring Order class">
       <created>1558949354242</created>
@@ -336,43 +372,50 @@
       <option name="project" value="LOCAL" />
       <updated>1559029454022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change position for the description characters and remove one line in defineTheAttributes method in Order class">
+      <created>1559030045693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559030045693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderTest_displaySelectedChoice - 2019.05.27 at 10h 14m 50s.xml">
-      <configuration name="OrderTest.displaySelectedChoice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2019.05.27 at 10h 17m 14s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2019.05.27 at 10h 18m 13s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_Given_Warrior_When_displayCharactersSelected_Then_DisplayWarriorSentence - 2019.05.27 at 10h 19m 19s.xml">
-      <configuration name="OrderTest.Given_Warrior_When_displayCharactersSelected_Then_DisplayWarriorSentence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2019.05.27 at 10h 19m 54s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2019.05.27 at 10h 20m 15s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2019.05.27 at 10h 20m 25s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2019.05.27 at 10h 30m 53s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_Given_LevelCharacters_When_displayStrengthLevelCharactersSelected_Then_thisLevel - 2019.05.27 at 10h 36m 57s.xml">
-      <configuration name="OrderTest.Given_LevelCharacters_When_displayStrengthLevelCharactersSelected_Then_thisLevel" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderTest_Given_LevelCharacters_When_displayStrengthLevelCharactersSelected_Then_thisLevel - 2019.05.27 at 10h 37m 13s.xml">
       <configuration name="OrderTest.Given_LevelCharacters_When_displayStrengthLevelCharactersSelected_Then_thisLevel" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WalkerTest_Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent - 2019.05.28 at 10h 34m 24s.xml">
+      <configuration name="WalkerTest.Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent - 2019.05.28 at 10h 34m 33s.xml">
+      <configuration name="WalkerTest.Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent - 2019.05.28 at 10h 34m 41s.xml">
+      <configuration name="WalkerTest.Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent - 2019.05.28 at 10h 40m 10s.xml">
+      <configuration name="WalkerTest.Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent - 2019.05.28 at 10h 40m 19s.xml">
+      <configuration name="WalkerTest.Given_DamageInflictedAtCharactersOpponent_When_WalkerHitHisOpponent_Then_LifeOfOpponent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel - 2019.05.28 at 10h 40m 34s.xml">
+      <configuration name="WalkerTest.Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel - 2019.05.28 at 10h 40m 44s.xml">
+      <configuration name="WalkerTest.Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel - 2019.05.28 at 10h 42m 02s.xml">
+      <configuration name="WalkerTest.Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkerTest_Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel - 2019.05.28 at 10h 42m 44s.xml">
+      <configuration name="WalkerTest.Given_BonusSpecialAttack_When_WalkerUseHisSpecialAttack_Then_HisNewLevel" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30113000" />
+    <option name="totallyTimeSpent" value="39025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -418,41 +461,18 @@
     <MESSAGE value="Change method in Order class for return a ArrayList" />
     <MESSAGE value="Change method in Order class for return a ArrayList and Change method in Main" />
     <MESSAGE value="Add two attributes in Main for create the player one and player two. Create the method addNewsPlayer for add a new object if is null" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add two attributes in Main for create the player one and player two. Create the method addNewsPlayer for add a new object if is null" />
+    <MESSAGE value="Change position for the description characters and remove one line in defineTheAttributes method in Order class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change position for the description characters and remove one line in defineTheAttributes method in Order class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/CharatersInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/AttackOtherCharacters.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Wa.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/CharactersAttack.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/CharachterAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Magus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/genly/WarriorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/genly/MagusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -469,26 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Walker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -496,10 +496,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/CharachterAttack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/genly/MagusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/genly/WalkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3426#3427#0" expanded="true" />
+            <element signature="e#3451#3452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Characters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="81">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
             <element signature="e#559#560#0" expanded="true" />
             <element signature="e#587#588#0" expanded="true" />
@@ -509,28 +548,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Walker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2403">
-          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2989#2997#0" expanded="true" />
-            <element signature="e#3426#3427#0" expanded="true" />
-            <element signature="e#3451#3452#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="27">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Magus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        <state relative-caret-position="440">
+          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -47,18 +47,18 @@ public class Order {
     public ArrayList<String> makeACharaters() {
         System.out.println("Niveau du personnage ?");
         int level = this.seizeTheAttributes();
-        System.out.println("Force du personnage ?");
-        int strength = this.seizeTheAttributes();
         System.out.println("Santé du personnage ?");
         int life = this.seizeTheAttributes();
+        System.out.println("Force du personnage ?");
+        int strength = this.seizeTheAttributes();
         System.out.println("Agilité du personnage ?");
         int agility = this.seizeTheAttributes();
         System.out.println("Intelligence du personnage ?");
         int intelligence = this.seizeTheAttributes();
         ArrayList<String> valueAttr = new ArrayList<String>();
         valueAttr.add(String.valueOf(level));
-        valueAttr.add(String.valueOf(strength));
         valueAttr.add(String.valueOf(life));
+        valueAttr.add(String.valueOf(strength));
         valueAttr.add(String.valueOf(agility));
         valueAttr.add(String.valueOf(intelligence));
         return valueAttr;

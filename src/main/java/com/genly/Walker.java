@@ -7,11 +7,20 @@ public class Walker extends Characters {
     }
 
     public int basicAttack(Characters characters) {
-        return 0;
+        int damages = this.getAgility();
+        int newLife = characters.getLife() - damages;
+        characters.setLife(newLife);
+        System.out.println("Le Rôdeur utilise sont attaque basique et inflige " + damages + " points de dégâts à "
+                + characters.getType());
+        return characters.getLife();
     }
 
     public int specialAttack(Characters characters) {
-        return 0;
+        int addLevel = this.getAgility() / 2;
+        int newLevel = this.getLevel() + addLevel;
+        setLevel(newLevel);
+        System.out.println("Le Rôdeur utilise sont attaque spécial et gagne " + addLevel + " de niveau");
+        return getLevel();
     }
 
     public void description() {

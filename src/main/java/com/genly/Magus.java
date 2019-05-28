@@ -13,12 +13,12 @@ public class Magus extends Characters {
     }
 
     public int specialAttack(Characters characters) {
-        System.out.println( this.getType() + " : Restaure sa vie de  " + this.getLife() + " points et sont " +
-                "intelligence de " + this.getLife() * 2);
         int newLife = 10;
         this.setLife(newLife);
         int newIntelligence = this.getLife() * 2;
         this.setIntelligence(newIntelligence);
+        System.out.println( this.getType() + " : Restaure sa vie de  " + this.getLife() + " point(s) et sont " +
+                "intelligence de " + newIntelligence + " point(s)");
         return this.getLife() + this.getIntelligence();
     }
 
