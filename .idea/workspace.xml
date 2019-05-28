@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c5fbe42-dce6-4fca-aca6-61933df149b4" name="Default Changelist" comment="">
+    <list default="true" id="7c5fbe42-dce6-4fca-aca6-61933df149b4" name="Default Changelist" comment="Change method in Order class for return a ArrayList and Change method in Main">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/genly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genly/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/genly/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genly/Order.java" afterDir="false" />
@@ -18,24 +19,49 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="54">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2989#2997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Characters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="-108">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/genly/Magus.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/genly/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/genly/Walker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/genly/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/genly/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/genly/Main.java" />
       </list>
     </option>
   </component>
@@ -158,6 +184,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -274,13 +301,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d285b827-749c-4d00-8058-19af78b92bcc" name="Default Changelist" comment="" />
+      <changelist id="7c5fbe42-dce6-4fca-aca6-61933df149b4" name="Default Changelist" comment="" />
       <created>1558689508669</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558689508669</updated>
       <workItem from="1558689510052" duration="7876000" />
       <workItem from="1558939585278" duration="7846000" />
+      <workItem from="1559025741475" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring Order class">
       <created>1558949354242</created>
@@ -289,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558949354242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring Order class">
+      <created>1558964545954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558964545954</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change method in Order class for return a ArrayList and Change method in Main">
+      <created>1558967871650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558967871650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -325,13 +367,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22324000" />
+    <option name="totallyTimeSpent" value="29451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,7 +410,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create a Walker class and create the beginning of game" />
     <MESSAGE value="Refactoring Order class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Order class" />
+    <MESSAGE value="Change method in Order class for return a ArrayList" />
+    <MESSAGE value="Change method in Order class for return a ArrayList and Change method in Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change method in Order class for return a ArrayList and Change method in Main" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/CharatersInterface.java" />
@@ -419,19 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Characters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -459,19 +490,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="54">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#2989#2997#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Characters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="-108">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/genly/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
           </folding>
         </state>
       </provider>
